@@ -1,4 +1,24 @@
 .bg-img{
     background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
-    height: 600px;
+    height: 100vh;
+}
+.container {
+    position: relative;
+  }
+  
+  .center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+  }
+
+.container{
+    width: 100vw;
+    background-color: white;
+    height: 50vh;
+    border-radius: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
