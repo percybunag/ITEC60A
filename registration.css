@@ -1,0 +1,32 @@
+.bg-img{
+    background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
+    height: 100vh;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+.card {
+    border-radius: 15px; 
+    border: 1px solid #000000; 
+    overflow: hidden; 
+    padding: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.container{
+    margin-top: 4rem;
+  }
+
+form .form-control, 
+form .form-select {
+  border-radius: 10px !important;
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+.btn {
+    border-radius: 10px;
+}
