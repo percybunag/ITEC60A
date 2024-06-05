@@ -2,6 +2,12 @@
     background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
     height: 100vh;
 }
+.img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
 .container {
     position: relative;
   }
