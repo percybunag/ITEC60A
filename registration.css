@@ -20,15 +20,15 @@ body {
 
 form .form-control {
   border-radius: 10px; 
-  border: 2px solid #000000; 
+  border: 1px solid #000000; 
   transition: border-color 0.3s; 
   background-color: #d2d2d2;
 }
 
 .card .form-control:hover,
 .card .form-control:focus {
-border-color: #000000;
-background-color: rgba(32, 156, 72, .6);
+border-color: rgba(32, 156, 72, .6);
+border-width: 3px;
 outline: none;
 }
 
@@ -40,8 +40,8 @@ outline: none;
 }
 
 .container select.form-select:hover {
-  border-color: rgba(0, 0, 0, 0.6);
-  background-color: rgba(32, 156, 72, .6);
+  border-color: rgba(32, 156, 72, .6);
+  border-width: 3px;
   outline: none;
 }
 
