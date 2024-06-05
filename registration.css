@@ -2,7 +2,7 @@
   background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
   height: max-content(100%);
     padding-top: 3rem;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
 }
 
 body {
