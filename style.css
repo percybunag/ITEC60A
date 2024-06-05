@@ -1,0 +1,81 @@
+.bg-img {
+    background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(../img/newcityhall.jpg);
+    height: 70vh;
+    width: 100vw;
+    position: inherit;
+    object-fit: cover;
+  }
+  
+  .img-logo {
+    width: 4vw;
+    margin-left: 50px;
+  }
+  
+  .navbar-nav {
+    width: 100%;
+    justify-content: space-evenly;
+    margin-left: 200px;
+  }
+  
+  .nav-item {
+    font-weight: 500;
+  }
+  
+  .nav-item>.btn {
+    width: 100px;
+    font-weight: 800;
+    font-family: Montserrat;
+  }
+  
+  .header-title {
+    font-family: Montserrat;
+    font-weight: bold;
+    color: white;
+    font-size: 60px;
+  }
+  
+  .header-text {
+    color: #053774;
+    font-size: 30px;
+  }
+  
+  .p-txt p {
+    font-weight: 400;
+    color: #053774;
+    font-size: 20px;
+    text-indent: 50px;
+  }
+  
+  mark {
+    color: #209C48;
+    background-color: #ffffff;
+  }
+  
+  .left {
+    padding-top: 140px;
+  
+  }
+  
+  .left>.cover-text {
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+  
+  }
+  
+  .left>p {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .right>.btn {
+    margin-top: 80px;
+    margin-left: 180px;
+    align-self: center;
+    width: 120px;
+    font-weight: 600;
+    background-color: white;
+    color: #053774;
+    border: none;
+    overflow: none;
+  }
