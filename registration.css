@@ -1,34 +1,61 @@
 .bg-img{
-    background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
-    height: max-content(100%);
+  background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
+  height: max-content(100%);
     padding-top: 8rem;
     padding-bottom: 8rem;
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
-  }
+  font-family: 'Montserrat', sans-serif;
+}
 
 .card {
-    border-radius: 15px; 
-    border: 1px solid #000000; 
-    overflow: hidden; 
-    padding: 20px; 
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 15px; 
+  border: 1px solid #000000; 
+  overflow: hidden; 
+  padding: 20px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 
 }
 
-.card > img{
-  padding-bottom: 10px;
+form .form-control {
+  border-radius: 10px; 
+  border: 2px solid #000000; 
+  transition: border-color 0.3s; 
+  background-color: #d2d2d2;
 }
+
+.card .form-control:hover,
+.card .form-control:focus {
+border-color: #000000;
+background-color: rgba(32, 156, 72, .6);
+outline: none;
+}
+
+.container select.form-select {
+  border-radius: 10px;
+  border: 1px solid #000000;
+  background-color: #d2d2d2;
+  transition: border-color 0.3s;
+}
+
+.container select.form-select:hover {
+  border-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(32, 156, 72, .6);
+  outline: none;
+}
+
+.container{
+    margin-top: 4rem;
+  }
+
 form .form-control, 
 form .form-select {
-  border-radius: 10px !important;
-  border: 1px solid #000000;
-  padding: 10px;
+border-radius: 10px !important;
+border: 1px solid #000000;
+padding: 10px;
 }
 
 .btn {
-    border-radius: 10px;
+  border-radius: 10px;
 }
-
