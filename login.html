@@ -10,42 +10,33 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
     <link rel="stylesheet" href="login.css">
+    <link rel="icon" type="png" href="img/Ph_seal_Imus.png">
 </head>
 <body>
     <div class="bg-img">
         <div class="container ">
+            <img src="img/Ph_seal_Imus.png" alt="img" width="90px">
+                <h5>Member Login</h5>
+                <br>
             <div class="card p-4">
-                <form action="" method="post" class="form">
-                    <img src="img/Ph_seal_Imus.png" width="48" height="48">
-                    <h5>Member Login</h5>
-                 
-                    <div class="row">
-                     
-                        <div class="col-lg-15 ">
-                        
-                            Email Address: <br><input type="email" name="Email" id="Email" size="40">
-                        </div>
+                <form action="index.html" method="post">
+                    <div class="input">
+                        <label>Email Address:</label>
+                        <input type="email"required>
+                        <br><br>
+                        <label>Password:</label>
+                        <input type="password"required>
                     </div>
-                    <div class="row">
-                        <div class="col-lg-15">
-                            Password: <br> <input type="password" name="Password" id="Password" size="40"><br>
-                            <div class="text">Dont have an account? <a href> Register here!</a> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;<a href>Forgot Password?</a></div>
-                           
-                            </div>
-                          
+                    <div class="register">
+                        <p>Don't have an account?
+                        <a href="registration.html">Register</a> &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; &emsp; 
+                        <a href="forgetpass.html">Forget password</a></p>
                     </div>
-                 
-                    <br> <button type="button" class="button" >Sign In</button>
-               
+                    <button type="submit" class="Btn">Sign In</button> 
+                </form>
             </div>
-
-        
-                <p div class="copyright">City of Imus | Office of Scholarship Program © 2024 All Rights Reserved Terms of Use and Privacy Policy</p>
-        </div>
-
+        </div>  
+            <p div class="copyright">City of Imus | Office of Scholarship Program © 2024 All Rights Reserved Terms of Use and Privacy Policy</p>
     </div>
-
-</form>
-
 </body>
 </html>
