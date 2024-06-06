@@ -1,0 +1,41 @@
+.bg-img{
+    background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    padding-top: 7rem;
+    padding-bottom: 6rem;
+}
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+    width: 800px;
+    height: 370px;
+    padding: 30px;
+    text-align: center;
+    background-color: white;
+    border-radius: 70px;
+}
+img{
+    margin-left: 660px;
+}
+
+h2{
+    margin-top: -40px;
+    font-weight: bold;
+}
+hr{
+    width: 799px;
+    align-items: center;
+    justify-content: center;
+    margin-left: -29px;
+
+}
+
+.card{
+    background-color: whitesmoke;
+    align-items: center;
+    width: 700px;
+    margin-left: 20px;
+    border-radius: 70px;
+}
