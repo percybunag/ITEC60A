@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Montserat' , sans-serif;
+   
+}
+
+body{
+    min-height:100vh;
+}
+a{
+    text-decoration:none;
+    color:white;
+}
+
+
+li{
+    list-style:none;
+    text-align: center;
+}
+
+li .a{
+    text-align: center;
+   
+}
+h6{
+    color:white;
+    font-family: 'Montserat', sans-serif;
+    font-size:xx-small;
+    
+}
+
+  
+
+.side-menu{
+    position:fixed;
+    background:#053774;
+    width:200px;
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+    
+  
+}
+
+.side-menu .brand-name h1{
+    
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 150px;
+    color:white;
+    font-family: 'Montserat', sans-serif;
+    font-size:large;
+
+}
+.side-menu li{
+    font-size:large;
+    padding:0%;
+    color:rgb(253, 253, 253);
+    display:flex;
+    align-items:center;
+}
+
+.side-menu li:hover{
+    color: white;
+    background:rgb(8, 8, 8);
+
+}
+
+hr{
+    color:white;
+}
+.container{
+    position: absolute;
+    right:0;
+    width:80vw;
+    height:100vh;
+
+}
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    font-size: 15px;
+  }
+  .navbar-nav .nav-item {
+  
+    padding: 0px 100px 0px 120px;
+    font-weight: 700;
+  }
+  .navbar .btn{
+    margin-left: 70px;
+    width: 80px;
+    font-weight: 700;
+  }
