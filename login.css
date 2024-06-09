@@ -8,11 +8,12 @@
   height: 100vh;
 }
 .container{
-  padding-top: 7rem;
+  padding-top: 10rem;
 }
 .card{
   width: 1200px;
-  height: 500px;
+  height: 520px;
+  border-radius: 15px;
 }
 .card-img-top{
   width: 120px;
@@ -27,6 +28,7 @@
 .card-body{
   background-color: rgb(185, 185, 185);
   border-radius: 8px;
+
 }
 .form-control {
   border-radius: 5px;
@@ -41,9 +43,7 @@
 }
 .footer {
   text-align: center;
-  position: absolute;
-  bottom: 65px;
-  width: 100%;
-  font-size: 15px;
   color: white;
+  margin-top:20px;
+  margin-left: 50px;
 }
