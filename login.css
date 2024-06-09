@@ -8,12 +8,12 @@
   height: 100vh;
 }
 .container{
-  padding-top: 4rem;
-
+  padding-top: 10rem;
 }
 .card{
   width: 1200px;
-  height: 500px;
+  height: 520px;
+  border-radius: 15px;
 }
 .card-img-top{
   width: 120px;
@@ -27,6 +27,39 @@
 }
 .card-body{
   background-color: rgb(185, 185, 185);
-  border-radius: 8px;
+  border-radius: 10px;
 
+}
+.form-control {
+  border-radius: 5px;
+  border-color: black;
+}
+.btn.Btn {
+  background-color: #053774; 
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 30px;
+  font-size: 12px;
+}
+.footer {
+  text-align: center;
+  color: white;
+  margin-top:30px;
+  margin-left: 60px;
+}
+.card-title {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  text-align: center; 
+}
+.register a,
+.register a:visited {
+    color: #053774;
+    font-weight: bold;
+    text-decoration: none;
+}
+.form-label {
+  font-weight: bold;
 }
