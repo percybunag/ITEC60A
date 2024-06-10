@@ -6,7 +6,10 @@
 
 .bg-img {
   background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
-  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .card-body {
@@ -63,6 +66,19 @@ form .form-control {
   color: white;
   font-weight: 700;
 }
+
+.Btn2{
+  width: 85px;
+  height: 30px;
+  background: #053774;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: small;
+  color: white; 
+  
+}
+
 .container{
-  padding-top: 100px;
+  padding-top: 77px;
 }

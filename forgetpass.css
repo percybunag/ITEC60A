@@ -1,62 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
 .bg-img{
     background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    padding-top: 7rem;
-    padding-bottom: 6rem;
+    background-attachment: fixed;
+    background-position: center;
 }
 
-.container{
-    font-family: 'Montserrat', sans-serif;
-    width: 800px;
-    height: 370px;
-    padding: 30px;
-    text-align: center;
-    background-color: white;
+.card-body {
+    background-color: #EBE6E6;
     border-radius: 70px;
 }
-img{
-    margin-left: 660px;
-}
 
-h2{
-    margin-top: -40px;
+.card-body p{
+    font-size: medium;
+    text-align: center  ;
+}
+h1{
+    font-size: larger;
+    font-weight: bold;
+}   
+
+.white {
+    border: none;
+    border-radius: 70px;
+  }
+
+form .form-label{
     font-weight: bold;
 }
-hr{
-    width: 799px;
-    align-items: center;
-    justify-content: center;
-    margin-left: -29px;
 
-}
-
-.card{
-    background-color: #EBE6E6;
-    align-items: center;
-    width: 700px;
-    margin-left: 20px;
-    border-radius: 70px;
-}
-
-input{
-    position: absolute;
-    width: 80%;
-    margin-inline-start: -280px;
+form .form-control {
     border-radius: 10px; 
-    border: 1px solid black;
-}
-
-.input label{
-    position: absolute;
-    margin-inline-start: -272px;
-    padding-top: 1.8rem;
-    transform: translateY(-50%);
-    pointer-events: none;
-    transition: 0.20 ease;
-}
-
+    border: 1px solid #000000; 
+    transition: border-color 0.3s; 
+    background-color: #d2d2d2;
+  }
 
 .Btn1{
   width: 85px;
@@ -67,6 +50,8 @@ input{
   border-radius: 8px;
   font-size: small;
   color: black;
+  
+
 }
 
 .Btn2{
@@ -77,9 +62,11 @@ input{
     outline: none;
     border-radius: 8px;
     font-size: small;
-    color: white;
+    color: white; 
+    
 }
 
-.boxes{
-    margin-inline-start: 385px;
-}
+.container{
+    padding-top: 125px;
+    padding-bottom: 133px;
+  }

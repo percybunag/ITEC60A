@@ -9,29 +9,31 @@
     <link rel="stylesheet" href="forgetpass.css">
     <link rel="icon" type="png" href="img/Ph_seal_Imus.png">
 </head>
-<body>
+<div>
     <div class="bg-img">
       <div class="container">
-        <div class="firstDiv">
-            <img src="img/Ph_seal_Imus.png" alt="img" width="80px">
-            <h2>Find your Account</h2><hr>  
-            <br>
-            <div class="card p-4">
+        <div class="white card p-4 w-100">
+            <div class="container-fluid text-center">
+                <img src="img/Ph_seal_Imus.png" alt="img" width="80px">
+                <h1>Find your Account</h1><hr>  
+            </div>
+            <div class="card-body">
                 <p>Please enter your email address so we can send a recovery code to your account</p>
                 <form action="forgetpass2.html" method="post">
-                    <div class="input">
-                        <input type="email" placeholder="Enter your Email" required>
+                    <div class="mb-3">
+                        <label class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" name="username" required>
                     </div>
-                    <br><br>
-                    <div class="boxes">
+                    <div class="button-container d-flex justify-content-end align-items-end-3 m-3">
                         <button type="submit" class="Btn1">Cancel</button>
-                        <button type="submit" class="Btn2">Search</button>                           
+                        <button type="submit" class="Btn2">Search</button>
                     </div>
                 </form>
             </div>
         </div>
     </div>
-    </div>
+</div>
+</div>
 </body>
 
 </html>

@@ -1,41 +1,72 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+
 .bg-img{
     background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
-    padding-top: 7rem;
-    padding-bottom: 6rem;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.card-body {
+    background-color: #EBE6E6;
+    border-radius: 70px;
+}
+
+.card-body p{
+    font-size: medium;
+    text-align: center  ;
+}
+h1{
+    font-size: larger;
+    font-weight: bold;
+}   
+
+.white {
+    border: none;
+    border-radius: 70px;
+  }
+
+form .form-label{
+    font-weight: bold;
+}
+
+form .form-control {
+    border-radius: 10px; 
+    border: 1px solid #000000; 
+    transition: border-color 0.3s; 
+    background-color: #d2d2d2;
+  }
+
+.Btn1{
+  width: 85px;
+  height: 30px;
+  background: #D9D9D9;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  font-size: small;
+  color: black;
+  
+
+}
+
+.Btn2{
+    width: 85px;
+    height: 30px;
+    background: #053774;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: small;
+    color: white; 
+    
 }
 
 .container{
-    font-family: 'Montserrat', sans-serif;
-    width: 800px;
-    height: 370px;
-    padding-top: 30px;
-    text-align: center;
-    background-color: white;
-    border-radius: 70px;
-}
-img{
-    margin-left: 660px;
-}
-
-h2{
-    margin-top: -40px;
-    font-weight: bold;
-}
-hr{
-    width: 799px;
-    align-items: center;
-    justify-content: center;
-    margin-left: -29px;
-
-}
-
-.card{
-    background-color: whitesmoke;
-    align-items: center;
-    width: 700px;
-    margin-left: 20px;
-    border-radius: 70px;
-}
+    padding-top: 125px;
+    padding-bottom: 130px;
+  }
