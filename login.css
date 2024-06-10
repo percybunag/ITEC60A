@@ -56,3 +56,9 @@ label {
 .link-container a:last-child {
   margin-right: 0;
 }
+form .form-control {
+  border-radius: 10px; 
+  border: 1px solid #000000; 
+  transition: border-color 0.3s; 
+  background-color: #d2d2d2;
+}
