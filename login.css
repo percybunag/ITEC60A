@@ -1,65 +1,27 @@
 *{
-  padding: 0;
-  margin: 0;
-  font-family: 'Montserrat';
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat';
 }
 .bg-img{
-  background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
-  height: 100vh;
-}
-.container{
-  padding-top: 10rem;
-}
-.card{
-  width: 1200px;
-  height: 520px;
-  border-radius: 15px;
-}
-.card-img-top{
-  width: 120px;
-  padding-top: 20px;
+    background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
+    height: 100vh;
 
-}
-.card-title{
-  font-size: 24px;
-  text-align: center;
-  font-weight: 800px;
 }
 .card-body{
-  background-color: rgb(185, 185, 185);
-  border-radius: 10px;
-
+    background-color: #EBE6E6;
+    border-radius: 15px;
 }
-.form-control {
-  border-radius: 5px;
-  border-color: black;
+.text-header{
+    font-size: 24px;
+    font-weight: 700;
 }
-.btn.Btn {
-  background-color: #053774; 
-  color: white;
-  border: none;
-  border-radius: 10px;
-  padding: 10px 30px;
-  font-size: 12px;
+.img-fluid{
+    width: 120px;
 }
-.footer {
-  text-align: center;
-  color: white;
-  margin-top:30px;
-  margin-left: 60px;
-}
-.card-title {
-  font-weight: 700;
-  margin-top: 10px;
-  margin-bottom: 10px; 
-  text-align: center; 
-}
-.register a,
-.register a:visited {
-    color: #053774;
+label{
     font-weight: bold;
-    text-decoration: none;
 }
-.form-label {
-  font-weight: bold;
+.white{
+    border: 2px solid red;
 }
