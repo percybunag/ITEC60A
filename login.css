@@ -1,12 +1,17 @@
+<<<<<<< HEAD
 *{
     padding: 0;
     margin: 0;
     font-family: 'Montserrat';
+=======
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+>>>>>>> 61ab4774201a7a1c797fbb725c68638ba005b186
 }
-.bg-img{
-    background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
-    height: 100vh;
 
+<<<<<<< HEAD
 }
 .card-body{
     background-color: #EBE6E6;
@@ -32,4 +37,67 @@ label{
 .btn-primary {
   width: 200px;
   height: 50px;
+=======
+.bg-img {
+  background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
+  height: 100vh;
+}
+
+.card-body {
+  background-color: #EBE6E6;
+  border-radius: 15px;
+}
+
+.text-header {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.img-fluid {
+  width: 120px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.white {
+  border: 2px solid red;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+.custom-center-button {
+  border-radius: 15px;
+}
+.custom-center-button {
+  border-radius: 15px;
+}
+
+.link-container span {
+  margin-right: 5px; 
+}
+
+.link-container a:not(:last-child) {
+  margin-right: 750px; 
+}
+
+.link-container a:last-child {
+  margin-right: 0;
+}
+form .form-control {
+  border-radius: 10px; 
+  border: 1px solid #000000; 
+  transition: border-color 0.3s; 
+  background-color: #d2d2d2;
+}
+.footer-container{
+  color: white;
+  font-weight: 700;
+}
+.container{
+  padding-top: 100px;
+>>>>>>> 61ab4774201a7a1c797fbb725c68638ba005b186
 }
