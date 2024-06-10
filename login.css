@@ -1,128 +1,58 @@
-<<<<<<< HEAD
-*{
-    padding: 0;
-    margin: 0;
-    font-family: 'Montserrat';
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
 }
-.bg-img{
-    background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
-    height: 100vh;
 
-}
-.card-body{
-    background-color: #EBE6E6;
-    border-radius: 15px;
-}
-.text-header{
-    font-size: 24px;
-    font-weight: 700;
-}
-.img-fluid{
-    width: 120px;
-}
-label{
-    font-weight: bold;
-}
-.white{
-    border: 2px solid red;
-=======
-.bg-img{
+.bg-img {
   background-image: linear-gradient(to right, rgba(32, 156, 72, .6), rgba(32, 156, 72, .6)), url(img/newcityhall.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
-  padding-top: 5rem;
-  padding-bottom: 6rem;
-}
-
-.container{
-  font-family: 'Montserrat', sans-serif;
-  width: 800px;
-  height: 100%;
-  padding: 30px;
-  text-align: center;
-  background-color: white;
-  border-radius: 10px;
-
-}
-
-img{
+  display: flex;
+  justify-content: center;
   align-items: center;
-  margin-top: -20px;
-  margin-bottom: 10px;
-}  
-
-h5{
-  font-weight: bold;
 }
 
-.card{
+.card-body {
   background-color: #EBE6E6;
-  align-items: center;
-  width: 600px;
-  height: 68%;
-  margin-left: 70px;
-  border-radius: 10px;
-  margin-top: -25px;
+  border-radius: 15px;
 }
 
-input{
-  width: 100%;
-  height: 25px;
-  margin-top: 1.5rem;
-  border-radius: 4px; 
-  border: 1px solid black;
-  margin-right: 200px;
+.text-header {
+  font-size: 24px;
+  font-weight: 700;
 }
 
-.input label{
-  font-size: small;
+.img-fluid {
+  width: 120px;
+}
+
+label {
   font-weight: bold;
-  position: absolute;
-  margin-top: 15px;
-  margin-inline-start: -0px;
-  transform: translateY(-50%);
-  pointer-events: none;
-  transition: 0.20 ease;
-}
-.register p{
-  display: flex;  
-  align-items: center;
-  align-self: center;
-  font-size: small;
-  margin-top: 2px;
 }
 
-.Btn{
-  width: 25%;
-  height: 30px;
-  background: #053774;
-  border: none;
-  outline: none;
-  border-radius: 8px;
-  font-size: small;
-  color: white;
-
+.white {
+  border: 2px solid red;
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+.custom-center-button {
+  border-radius: 15px;
+}
+.custom-center-button {
+  border-radius: 15px;
 }
 
+.link-container span {
+  margin-right: 5px; 
+}
 
+.link-container a:not(:last-child) {
+  margin-right: 750px; 
+}
 
-
-
-
-
-
-
-
-
-
-
-.copyright{
-  font-size: small;
-  font-family: 'Montserrat', sans-serif;
-  color:white;
-  align-self:center;
-  text-align:center;
-  margin-top: 30px;
->>>>>>> ac33a7af071fc82543ce9fda5b4b25975af70fba
+.link-container a:last-child {
+  margin-right: 0;
 }
