@@ -16,59 +16,63 @@
         <h1 class="text-center mb-3">REGISTRATION</h1>
         <form action="/submit_registration" method="post">
           <div class="row">
+            <!-- Top Layer: First Name, Middle Name, Last Name -->
+            <div class="col-12 mb-3">
+              <div class="row">
+                <div class="col-md-4">
+                  <label for="firstName" class="form-label">First Name:</label>
+                  <input type="text" class="form-control" id="firstName" name="firstName" placeholder="John" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="middleName" class="form-label">Middle Name:</label>
+                  <input type="text" class="form-control" id="middleName" name="middleName" placeholder="Paul" required>
+                </div>
+                <div class="col-md-4">
+                  <label for="lastName" class="form-label">Last Name:</label>
+                  <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Doe" required>
+                </div>
+              </div>
+            </div>
+            
             <!-- Left Column -->
             <div class="col-md-6">
               <div class="mb-3">
-                <label for="firstName" class="form-label">First Name:</label>
-                <input type="text" class="form-control" id="firstName" name="firstName" placeholder="John" required>
-              </div>
-              <div class="mb-3">
-                <label for="middleName" class="form-label">Middle Name:</label>
-                <input type="text" class="form-control" id="middleName" name="middleName" placeholder="A.">
-              </div>
-              <div class="mb-3">
-                <label for="lastName" class="form-label">Last Name:</label>
-                <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Doe" required>
-              </div>
-              <div class="mb-3">
                 <label for="emailAddress" class="form-label">Email Address:</label>
-                <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="john.doe@example.com" required>
+                <input type="email" class="form-control" id="emailAddress" name="emailAddress" placeholder="Johndoe@gmail.com">
+              </div>
+              <div class="mb-3">
+                <label for="gender" class="form-label">Gender:</label>
+                <select class="form-select" id="gender" name="gender" required>
+                  <option value="" selected disabled>Select your gender</option>
+                  <option value="male">Male</option>
+                  <option value="female">Female</option>
+                  <option value="other">Other</option>
+                </select>
               </div>
               <div class="mb-3">
                 <label for="contactNumber" class="form-label">Contact Number:</label>
                 <input type="tel" class="form-control" id="contactNumber" name="contactNumber" placeholder="+1234567890" required>
+              </div>
+              <div class="mb-3">
+                <label for="address" class="form-label">Unit/Floor/Street:</label>
+                <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St">
               </div>
             </div>
             
             <!-- Right Column -->
             <div class="col-md-6">
               <div class="mb-3">
-                <label for="password" class="form-label">Password:</label>
-                <input type="password" class="form-control" id="password" name="password" placeholder="Password" required>
+                <label for="Password" class="form-label">Password:</label>
+                <input type="password" class="form-control" id="Password" name="Password" placeholder="Password" required>
               </div>
               <div class="mb-3">
                 <label for="confirmPassword" class="form-label">Confirm Password:</label>
-                <input type="password" class="form-control" id="confirmPassword" name="confirmPassword" placeholder="Confirm Password" required>
-              </div>
-              <div class="row mb-3">
-                <div class="col-md-6">
-                  <label for="suffix" class="form-label">Suffix:</label>
-                  <input type="text" class="form-control" id="suffix" name="suffix" placeholder="Jr., Sr., III, etc.">
-                </div>
-                <div class="col-md-6">
-                  <label for="gender" class="form-label">Gender:</label>
-                  <select class="form-select" id="gender" name="gender" required>
-                    <option value="" selected disabled>Select your gender</option>
-                    <option value="male">Male</option>
-                    <option value="female">Female</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
+                <input type="password" class="form-control" id="confirmPassword" name="ConfirmPassword" placeholder="Confirm Password" required>
               </div>
               <div class="mb-3">
-                <label for="address" class="form-label">Unit/Floor/Street:</label>
-                <input type="text" class="form-control" id="address" name="address" placeholder="1234 Main St">
-              </div>
+                <label for="birthdate" class="form-label">Birthdate:</label>
+                <input type="date" class="form-control" id="birthdate" name="birthdate" required>
+              </div>              
               <div class="mb-3">
                 <label for="barangay" class="form-label">Barangay:</label>
                 <input type="text" class="form-control" id="barangay" name="barangay" placeholder="Barangay">
@@ -81,9 +85,8 @@
           </div>
         </form>
       </div>
-      <p div class="copyright">City of Imus | Office of Scholarship Program © 2024 All Rights Reserved Terms of Use and Privacy Policy</p>
+      <p class="copyright">City of Imus | Office of Scholarship Program © 2024 All Rights Reserved Terms of Use and Privacy Policy</p>
     </div>
   </div>
-
-  </body>
-  </html>
+</body>
+</html>
