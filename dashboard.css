@@ -11,7 +11,6 @@
 
 }
 
-
 .navbar {
     background-color: transparent !important;
     position: absolute;
@@ -49,8 +48,32 @@
     background-color: #ddd;
     color: #209C48;
   }
-  
 
+#main {
+    display: flex;
+    align-items: center;
+}
+#main img {
+    margin-right: 20px;
+}
+.header1 {
+    text-align: left;
+}
+.header1 p, .header2 p {
+    margin: 0;
+}
+.header1 p {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: white;
+}
+.header2 p {
+    font-size: 0.9em;
+    color:white;
+}
+.header2 br {
+    margin-bottom: 10px;
+}
   .topnav a.active {
     background-color: #04AA6D;
     color: white;
@@ -92,7 +115,96 @@
     font-size: 36px;
     margin-left: 50px;
   }
-  
+  .sidenav .brand-name h1{
+    
+    height:10vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    margin-top: 150px;
+    color:white;
+    font-family: 'Montserat', sans-serif;
+    font-size:large;
+    font-weight:bold;
+
+}
+
+.sidenav li{
+    font-size: 10px;
+    padding:0%;
+    display:flex;
+    align-items:center;
+    text-align: center;
+}
+
+.side-menu li:hover{
+    align-items: center;
+    color: white;
+
+
+}
+
+hr{
+    color:white;
+}
+.centered-content {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.centered-content ul {
+    list-style-type: none;
+    padding: 0;
+}
+.centered-content li {
+    margin: 20px 0;
+}
+.dashboard{
+  position: flex;
+  right:0;
+  width: 1759px;
+  height:15vh;
+  background:white;
+  border-style:solid;
+  border-color: rgb(218, 217, 217);
+  border-radius: 1%;
+  justify-content:center;
+  text-align: center;
+  font-family: 'Montserat', sans-serif;
+  text-indent: 50px;
+  font-size:35px;
+  font-weight:bold;
+  color:#053774;
+}
+.card {
+  width: 300px;
+  background-color: #04AA6D;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 20px;
+  position: relative;
+}
+.card-img-overlay {
+  padding: 20px;
+  position: relative;
+}
+.card-title {
+  margin: 0;
+  font-size: 1.5em;
+  color: #333;
+}
+.card-text {
+  margin: 10px 0;
+  font-size: 1em;
+  color: #555;
+}
+svg {
+  margin-top: 10px;
+  width: 24px;
+  height: 24px;
+  color: green;
+}
   #main {
     transition: margin-left .5s;
     padding: 16px;
@@ -102,48 +214,3 @@
     .sidenav {padding-top: 15px;}
     .sidenav a {font-size: 18px;}
   }
-
-  .container .header1{
-    position: fixed;
-    top:0;
-    right: 99vh;
-    width:30vw;
-    height:10vh;
-    background:#209C48;
-    display:flex;
-    align-items:left;
-    justify-content:left;
-    box-shadow: 0 4 8px 0 rgba(0, 0, 0, 0.2);
-    margin-top: 30px;
-}
-
-.container .header2{
-    position: fixed;
-    top:0;
-    right: 99vh;
-    width:30vw;
-    height:1vh;
-    background:#209C48;
-    display:flex;
-    align-items:left;
-    justify-content:left;
-    box-shadow: 0 4 8px 0 rgba(0, 0, 0, 0.2);
-    margin-top: 50px;
-}
-
-
-.container .header p{
-    font-family: 'Montserat', sans-serif;
-    align-items:left;
-    justify-content:left;
-    color:white;
-    font-size:10px;
-  margin-right: 100px;
- 
-}
-.container .header h2{
-    font-family: 'Montserat', sans-serif;
-    color:white;
-    font-size:large;
-    font-weight:bold;
-}
